@@ -15,7 +15,7 @@ namespace GraphQL.Api.GraphQL.Types
             Field(t => t.ProcessId);
             Field(t => t.ApplicationName);
             Field(t => t.Data);
-            //Field(t => t.CreateDateTime);
+            Field(t => t.CreateDateTime);
             Field(t => t.IsStart);
         }
     }

@@ -12,6 +12,6 @@ namespace GraphQL.Api.Data
         public string ApplicationName { get; set; }
         public bool IsStart { get; set; }
         public string ProcessId { get; set; }
-        //public DateTime CreateDateTime { get; set; }
+        public DateTime CreateDateTime { get; set; }
     }
 }
